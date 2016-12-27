@@ -1,4 +1,4 @@
-FROM area51/postgresql:latest
+FROM area51/postgresql:9.5
 MAINTAINER Peter Mount <peter@retep.org>
 
 #============================================================================
