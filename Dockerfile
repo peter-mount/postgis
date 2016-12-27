@@ -1,4 +1,4 @@
-FROM area51/postgresql:9.5
+FROM area51/postgresql:9.6
 MAINTAINER Peter Mount <peter@retep.org>
 
 #============================================================================
@@ -12,8 +12,8 @@ MAINTAINER Peter Mount <peter@retep.org>
 # Will give you the POSTGIS_VERSION
 #============================================================================
 
-ENV POSTGIS_MAJOR 2.2
-ENV POSTGIS_VERSION 2.2.2+dfsg-1.pgdg80+1
+ENV POSTGIS_MAJOR 2.3
+ENV POSTGIS_VERSION 2.3.1+dfsg-1.pgdg80+1
 
 COPY *.sh /docker-entrypoint-initdb.d/
 
