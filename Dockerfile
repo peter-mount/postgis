@@ -13,7 +13,7 @@ MAINTAINER Peter Mount <peter@retep.org>
 #============================================================================
 
 ENV POSTGIS_MAJOR 2.3
-ENV POSTGIS_VERSION 2.3.1+dfsg-1.pgdg80+1
+ENV POSTGIS_VERSION 2.3.2+dfsg-1~exp2.pgdg80+1
 
 COPY *.sh /docker-entrypoint-initdb.d/
 
